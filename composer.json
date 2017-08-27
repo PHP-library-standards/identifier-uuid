@@ -1,0 +1,23 @@
+{
+    "name": "pls/identifier-uuid",
+    "description": "PLS UUID specification",
+    "keywords": [
+        "PLS", "identifier", "uuid"
+    ],
+    "homepage": "https://github.com/PHP-library-standards/identifier-uuid",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PHP Library Standards",
+            "homepage": "https://github.com/PHP-library-standards"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pls\\Identifier\\Uuid\\": "src"
+        }
+    }
+}
